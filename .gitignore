@@ -1,2 +1,25 @@
+# Ignore all class files
 *.class
 
+# Ignore all compiled output folders (if any in future)
+bin/
+out/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE-specific files (example for IntelliJ IDEA, Eclipse, VS Code)
+*.iml
+*.ipr
+*.iws
+.idea/
+.vscode/
+*.log
+*.classpath
+*.project
+*.settings/
+
+# Ignore backup files
+*~
+*.swp
